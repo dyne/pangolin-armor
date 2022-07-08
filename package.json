@@ -1,0 +1,12 @@
+{
+  "name": "pangolin-armor",
+  "version": "1.0.0",
+  "description": "Proxy with load-balancing and SSL management for node pangolin staging server",
+  "main": "index.js",
+  "repository": "https://github.com/dyne/pangolin-armor",
+  "author": "Puria Nafisi Azizi <puria@dyne.org>",
+  "license": "MIT",
+  "dependencies": {
+    "greenlock-proxy": "^0.2.0"
+  }
+}
