@@ -14,10 +14,8 @@ module.exports = {
     },
   ],
   deploy: {
-    production: {
-      user: 'root',
-      host: 'pangolin.dyne.org',
-      key: 'deploy.key',
+    pangolin: {
+      host: 'deploy_staging',
       ref: 'origin/main',
       repo: 'https://github.com/dyne/pangolin-armor',
       path: '/root/pangolin-armor',
