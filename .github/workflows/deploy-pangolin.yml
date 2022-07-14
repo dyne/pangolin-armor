@@ -1,0 +1,12 @@
+name: Pangloin deploy
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    uses: dyne/workflows/.github/workflows/node-staging-deploy.yml@main
+
