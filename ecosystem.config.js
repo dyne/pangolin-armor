@@ -18,7 +18,7 @@ module.exports = {
       host: 'deploy_staging',
       ref: 'origin/main',
       repo: 'https://github.com/dyne/pangolin-armor',
-      path: '/root/pangolin-armor',
+      path: '/root/',
       'post-deploy':
         'yarn install && pm2 reload ecosystem.config.js --env production && pm2 save',
       env: {
