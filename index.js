@@ -8,7 +8,6 @@ var proxy = new GreenlockProxy({
 
 // CNAME your address to pangolin.dyne.org.
 
-
 // Then just bind your domain to internal address
 proxy.register(["pattern.dyne.org"], ["http://localhost:3030"]);
 
