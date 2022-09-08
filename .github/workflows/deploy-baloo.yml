@@ -1,9 +1,7 @@
-name: Pangloin deploy
+name: Baloo deploy
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
     branches: [ "main" ]
 
 jobs:

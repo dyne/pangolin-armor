@@ -10,6 +10,7 @@ var proxy = new GreenlockProxy({
 
 // Then just bind your domain to internal address
 proxy.register(["pattern.dyne.org"], ["http://localhost:3030"]);
+proxy.register(["interfacer-gui-staging.dyne.org"], ["http://localhost:3040"]);
 
 // Start proxiyng
 proxy.start();
