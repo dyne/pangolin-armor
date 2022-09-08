@@ -11,7 +11,7 @@ module.exports = {
     },
   ],
   deploy: {
-    production: {
+    baloo: {
       host: 'deploy_staging',
       ref: 'origin/main',
       repo: 'https://github.com/dyne/pangolin-armor',
