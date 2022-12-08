@@ -12,6 +12,7 @@ var proxy = new GreenlockProxy({
 proxy.register(["pattern.dyne.org"], ["http://localhost:3030"]);
 proxy.register(["interfacer-gui-staging.dyne.org"], ["http://localhost:3040"]);
 proxy.register(["luigi.dyne.org"], ["http://localhost:3050"]);
+proxy.register(["uptime.dyne.org"], ["http://localhost:3001"]);
 
 // Start proxiyng
 proxy.start();
