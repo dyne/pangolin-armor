@@ -9,5 +9,5 @@ jobs:
     uses: dyne/workflows/.github/workflows/node-staging-deploy.yml@main
     secrets: inherit
     with:
-      deploy_url: baloo.dyne.org
+      deploy_url: https://dyne.org
 
