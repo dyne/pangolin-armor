@@ -7,6 +7,6 @@
   "author": "Puria Nafisi Azizi <puria@dyne.org>",
   "license": "MIT",
   "dependencies": {
-    "greenlock-proxy": "^0.2.0"
+    "izi-proxy": "github:puria/izi-proxy"
   }
 }
