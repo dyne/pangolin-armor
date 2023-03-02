@@ -10,7 +10,7 @@ var proxy = new IziProxy({
 
 // Then just bind your domain to internal address
 proxy.register(["pattern.dyne.org"], ["http://localhost:3030"]);
-proxy.register(["interfacer-gui-staging.dyne.org"], ["http://localhost:3040"]);
+proxy.register(["interfacer-gui-staging.dyne.org", "beta.interfacer.dyne.org"], ["http://localhost:3040"]);
 proxy.register(["luigi.dyne.org"], ["http://localhost:3050"]);
 proxy.register(["uptime.dyne.org"], ["http://localhost:3001"]);
 proxy.register(["explorer.did.dyne.org"], ["http://localhost:3060"]);
