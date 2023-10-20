@@ -14,6 +14,7 @@ proxy.register(["interfacer-gui-staging.dyne.org", "beta.interfacer.dyne.org"], 
 proxy.register(["luigi.dyne.org"], ["http://localhost:3050"]);
 proxy.register(["uptime.dyne.org"], ["http://localhost:3001"]);
 proxy.register(["explorer.did.dyne.org"], ["http://localhost:3060"]);
+proxy.register(["delta.dyne.org"], ["http://localhost:4321"]);
 
 // Start proxiyng
 proxy.start();
